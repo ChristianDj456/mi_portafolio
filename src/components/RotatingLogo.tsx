@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 
 const logos = ['/icons8-trifuerza-stickers-96.png', '/icons8-nintendo-gamecube-duo-96.png', 'icons8-caballero-hueco-gradient-120.png', 'icons8-hollow-knight-cute-color-120.png', 'icons8-caballero-hueco-cute-outline-120.png']; // Asegúrate que estén en public/
 
@@ -15,7 +16,7 @@ export default function RotatingLogo() {
       className="w-10 h-10 cursor-pointer transition-transform hover:scale-210 hover:rotate-20"
       onMouseEnter={handleHover}
     >
-      <img
+      <Image
         src={logos[index]}
         alt="Logo dinámico"
         className="w-full h-full object-contain transition-all duration-300 ease-in-out"
