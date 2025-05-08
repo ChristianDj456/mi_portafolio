@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const logos = ['/icons8-trifuerza-stickers-96.png', '/icons8-nintendo-gamecube-duo-96.png', 'icons8-caballero-hueco-gradient-120.png', 'icons8-hollow-knight-cute-color-120.png', 'icons8-caballero-hueco-cute-outline-120.png']; // Asegúrate que estén en public/
+const logos = ['/icons8-trifuerza-stickers-96.png', '/icons8-nintendo-gamecube-duo-96.png']; // Asegúrate que estén en public/
 
 export default function RotatingLogo() {
   const [index, setIndex] = useState(0);
@@ -19,6 +19,8 @@ export default function RotatingLogo() {
       <Image
         src={logos[index]}
         alt="Logo dinámico"
+        width={96}
+        height={96}
         className="w-full h-full object-contain transition-all duration-300 ease-in-out"
       />
     </div>
