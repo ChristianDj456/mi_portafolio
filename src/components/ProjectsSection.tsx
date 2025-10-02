@@ -4,6 +4,16 @@ import AnimatedSection from './AnimatedSection';
 
 const projects = [
   {
+    title: 'UTA - Unidad de Traslado Asistencial',
+    description: 'Web solution to manage and schedule patient ambulance transfers (requests, scheduling, notifications, status changes, and reports)',
+    technologies: ['React', '.Net Core', 'SQL Server'],
+  },
+  {
+    title: 'CuidarMe Mobile App',
+    description: 'Mobile application for Bienestar IPS that allows users to consult appointments, programs, results, and medications with a simple and secure experience',
+    technologies: ['React Native', 'Typescript', 'MongoDB', 'Expo'],
+  },
+  {
     title: 'CRM Development',
     description: 'Customer and opportunity management with dynamic forms, dashboards and indicators.',
     technologies: ['React', 'TypeScript', 'TailwindCSS', 'Material UI'],

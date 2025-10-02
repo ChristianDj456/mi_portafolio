@@ -8,7 +8,7 @@ import SkillsSection from '@/components/SkillsSection';
 export default function HomePage() {
   return (
     <main className="bg-gray-50 text-gray-800">
-      
+
       <HeroSection
         name="Cristian"
         lastname="Chavez"
@@ -20,7 +20,12 @@ export default function HomePage() {
 
       <AboutSection
         title="About Me"
-        description="I am a Systems Engineer graduated from Universidad del Norte. I have experience in Frontend and Backend development, and a strong interest in Artificial Intelligence. I am a fast learner, team player and always looking for the best solution to every challenge."
+        description="I am a Systems and Computing Engineer with experience in full-stack web development.
+                  I build solutions with React/Next.js, ASP.NET Core, and SQL Server, integrating services and
+                  consistent data models. Experienced in healthcare products such as UTA (Ambulance
+                  Transfer Unit) for Clínica General del Norte and CuidarMe (Bienestar IPS). Recognized for
+                  problem-solving, fast learning, and embracing new challenges as opportunities to improve,
+                  acquire skills, and deliver high-value solutions."
         location="Barranquilla, Atlántico, Colombia"
         education="Universidad del Norte (2020 - 2024)"
       />
